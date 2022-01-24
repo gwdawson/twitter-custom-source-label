@@ -8,10 +8,9 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Scroll to the top, and click on "Keys and Tokens" here you can see your Twitter API keys and Access Tokens.
 - [x] Click on "Regenerate" for API Key & Secret then copy both Keys.
 - [x] Click on "Generate" for Access Token & Secret then copy both Tokens.
+      <br>
 
-<hr>
-
-- [x] TODO -- CREATE STEPS ON HOW TO SETUP MY APP
-- [x] ...
-- [x] ...
-- [x] ...
+- [x] At the top of this page select the green code button and click "Download ZIP".
+- [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source".
+- [x] Inside "twitter-custom-source", open "tweet.py" in your IDE or Text Editor.
+- [x] CONTINUE... {how to add more applications} + {how to add your tokens}
