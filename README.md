@@ -5,7 +5,7 @@ _Before you are able to use this software you need developer account on twitter.
 - [x] You will be redirected to API keys and Tokens, scroll down and click on “App Settings” to make few tweaks.
 - [x] Scroll to App Permissions and change the option from “Read” to “Read and Write” and click on Save.
 - [x] Scroll to Authentication Settings and turn on 3rd party authentication then click on Save.
-- [x] Now scroll to the top, and click on "Keys and Tokens" here you can see your Twitter API keys and Access Tokens.
+- [x] Scroll to the top, and click on "Keys and Tokens" here you can see your Twitter API keys and Access Tokens.
 - [x] Click on "Regenerate" for API Key & Secret then copy both your "API Key" and "API Key Secret".
 - [x] Click on "Generate" for Access Token & Secret then copy both your "Access Token" and "Access Token Secret".
 
