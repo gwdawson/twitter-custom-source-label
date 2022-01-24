@@ -23,9 +23,9 @@ def start_the_programme():
             if not user_selected_image.isnumeric():
                 error_select_number()
             else:
-                if user_selected_image == '1':
+                if user_selected_image == "1":
                     tweet_image_from_device(user_selected_device)
-                elif user_selected_image == '2':
+                elif user_selected_image == "2":
                     tweet_from_device(user_selected_device)
                 else:
                     error_select_listed_number()
@@ -34,13 +34,17 @@ def start_the_programme():
 
 
 def select_your_device():
-    user_selected_device = str(input(f"""
+    user_selected_device = str(
+        input(
+            f"""
 What device would you like to tweet from?\n
 0. Exit the programme
 1. {device_1}
 2. {device_2}
 3. {device_3}\n
-Select one number from above: """))
+Select one number from above: """
+        )
+    )
     if user_selected_device == "0":
         sys.exit()
     else:
@@ -49,11 +53,15 @@ Select one number from above: """))
 
 def select_image():
     os.system("clear")
-    user_selected_image = str(input(f"""
+    user_selected_image = str(
+        input(
+            f"""
 Would you like to add an image to your tweet?\n
 1. Yes
 2. No\n
-Select one number from above: """))
+Select one number from above: """
+        )
+    )
     return user_selected_image
 
 
@@ -107,7 +115,8 @@ def tweet_image_from_device(user_selected_device):
     api = tweepy.API(auth)
     print(f'This tweet will be sent using the "TEMP NAME" source label\n')
     tweet = input("What would you like to Tweet?: ")
-    api.update_status(status=(tweet + 'image'))
+    api.update_status(status=(tweet + "image"))
     print("The tweet is live!")
+
 
 start_the_programme()
