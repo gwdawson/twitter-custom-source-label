@@ -1,4 +1,4 @@
-_Before you are able to use this software you need developer account on twitter. To acheive this just navigate to [Twitter Developer Platform](https://developer.twitter.com/) and fill out the application explaining what you want to do with their API. Once completed you will get an email letting you know if your application has been approved. After getting your approval from Twitter you can create your first app!_
+_Before you are able to use this software you need a developer account on twitter. To acheive this just navigate to [Twitter Developer Platform](https://developer.twitter.com/) and fill out the application explaining what you want to do with their API. Once completed you will get an email letting you know if your application has been approved. After getting your approval from Twitter you can create your first app!_
 
 - [x] Head over to [Twitter Developer Platform](https://developer.twitter.com/en/portal/projects-and-apps) and select "Create App".
 - [x] Give your app a name, this is the name that will be shown on your tweets as the source label.
