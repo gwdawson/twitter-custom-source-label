@@ -9,7 +9,7 @@ os.system("clear")
 number_of_devices = ["1", "2", "3"]
 device_1 = "DUREX SmartCondom"
 device_2 = "GUCCI SmartToilet"
-device_3 = "LG SmartRefrigerator"
+device_3 = "Twitter for ArianaGrande"
 
 
 def start_the_programme():
@@ -97,8 +97,8 @@ def tweet_from_device(user_selected_device):
     )
     api = tweepy.API(auth)
     print(f'This tweet will be sent using the "TEMP NAME" source label\n')
-    tweet = input("What would you like to Tweet?: ")
-    api.update_status(status=(tweet))
+    status = input("What would you like to Tweet?: ")
+    api.update_status(status=status)
     print("The tweet is live!")
 
 
@@ -114,8 +114,9 @@ def tweet_image_from_device(user_selected_device):
     )
     api = tweepy.API(auth)
     print(f'This tweet will be sent using the "TEMP NAME" source label\n')
-    tweet = input("What would you like to Tweet?: ")
-    api.update_status(status=(tweet + "image"))
+    image = "image.jpg"
+    status = input("What would you like to Tweet?: ")
+    api.update_status_with_media(status, image)
     print("The tweet is live!")
 
 
