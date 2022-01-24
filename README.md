@@ -11,6 +11,6 @@ _Before you are able to use this software you need a developer account on twitte
 <br>
 
 - [x] At the top of this page select the green code button and click "Download ZIP".
-- [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source".
-- [x] Inside "twitter-custom-source", open "tweet.py" in your IDE or Text Editor.
+- [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source-label".
+- [x] Inside "twitter-custom-source-label", open "tweet.py" in your IDE or Text Editor.
 - [x] CONTINUE... {how to add more applications} + {how to add your tokens}
