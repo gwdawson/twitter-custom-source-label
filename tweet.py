@@ -16,8 +16,7 @@ device_9 = ''
 def start_the_programme():
   user_input = select_your_device()
   if not user_input.isnumeric():
-    # Add error function here
-    return
+    error_select_number()
   else:
     if user_input == '1':
       tweet_from_device_1()
@@ -38,8 +37,7 @@ def start_the_programme():
     elif user_input == '9':
       tweet_from_device_9()
     else:
-      # Add error function here
-      return
+      error_select_listed_number()
 
 def select_your_device():
   user_input = str(input(f'''What device would you like to tweet from?\n
@@ -54,6 +52,20 @@ def select_your_device():
 9. {device_9}
 \nSelect one number from above: '''))
   return user_input
+
+def error_select_number():
+  os.system('clear')
+  print('---------------------------------')
+  print('ERROR - Input should be a number!')
+  print('---------------------------------\n')
+  start_the_programme()
+
+def error_select_listed_number():
+  os.system('clear')
+  print('----------------------------------------')
+  print('ERROR - Input should be a listed number!')
+  print('----------------------------------------\n')
+  start_the_programme()
 
 def tweet_from_device_1():
   os.system('clear')
