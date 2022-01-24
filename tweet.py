@@ -14,7 +14,6 @@ device_3 = "Twitter for ArianaGrande"
 
 def start_the_programme():
     user_selected_device = select_your_device()
-
     if not user_selected_device.isnumeric():
         error_select_number()
     else:
