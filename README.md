@@ -1,4 +1,8 @@
+## README
+
 _Before you are able to use this software you need a developer account on twitter. To acheive this just navigate to [Twitter Developer Platform](https://developer.twitter.com/) and fill out the application explaining what you want to do with their API. Once completed you will get an email letting you know if your application has been approved. After getting your approval from Twitter you can create your first app!_
+
+## Creating a twitter application
 
 - [x] Head over to [Twitter Developer Platform](https://developer.twitter.com/en/portal/projects-and-apps) and select "Create App".
 - [x] Give your app a name, this is the name that will be shown on your tweets as the source label.
@@ -6,11 +10,21 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Scroll to App Permissions and change the option from “Read” to “Read and Write” and click on Save.
 - [x] Scroll to Authentication Settings and turn on 3rd party authentication then click on Save.
 - [x] Scroll to the top, and click on "Keys and Tokens" here you can see your Twitter API keys and Access Tokens.
-- [x] Click on "Regenerate" for API Key & Secret then copy both Keys.
-- [x] Click on "Generate" for Access Token & Secret then copy both Tokens.
-<br>
+- [x] Click on "Regenerate" for API Key & Secret then take a note of both Keys.
+- [x] Click on "Generate" for Access Token & Secret then take a note of both Tokens.
 
-- [x] At the top of this page select the green code button and click "Download ZIP".
-- [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source".
-- [x] Inside "twitter-custom-source", open "tweet.py" in your IDE or Text Editor.
-- [x] CONTINUE... {how to add more applications} + {how to add your tokens}
+## Setting up the software
+
+- [x] At the top of this page select the green "Code" button and click "Download ZIP".
+- [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source-label".
+- [x] Inside "twitter-custom-source-label", open "tweet.py" in your IDE or Text Editor.
+- [x] On line 10 set the value of "device_1" to your application name and Save.
+- [x] Open ".env" in your IDE or Text Editor, paste your Twitter API keys and Access Tokens and Save.
+
+## Installing Python and Requirements
+
+- [x] Go to [Python Downloads](https://www.python.org/downloads/) and select the latest version for your device.
+- [x] Follow the setup guide until completely installed.
+- [x] Once complete, navigate to "twitter-custom-source-label" in terminal/command prompt.
+- [x] Run the following command `pip install -r requirements.txt`.
+- [x] Finally you can run `Python3 tweet.py` and the software should open.
