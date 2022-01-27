@@ -7,9 +7,9 @@ load_dotenv()
 os.system("clear")
 
 number_of_devices = ["1", "2", "3"]
-device_1 = "DUREX SmartCondom"
-device_2 = "GUCCI SmartToilet"
-device_3 = "Twitter for ArianaGrande"
+device_1 = "Your Application Name"
+device_2 = "Your Application Name"
+device_3 = "Your Application Name"
 
 
 def start_the_programme():
@@ -37,7 +37,7 @@ def select_your_device():
         input(
             f"""
 What device would you like to tweet from?\n
-0. Exit the programme
+0. Exit the programme\n
 1. {device_1}
 2. {device_2}
 3. {device_3}\n
