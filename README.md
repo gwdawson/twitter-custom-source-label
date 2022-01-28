@@ -27,8 +27,8 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Follow the setup guide until completely installed.
 - [x] Once complete, navigate to "twitter-custom-source-label" in terminal/command prompt.
 - [x] Run the following command `pip install -r requirements.txt`.
-- [x] Finally you are on Mac or Linux run `python3 tweet.py`
-- [x] If you are on Windows run `Python tweet.py`
+- [x] Finally you are on Mac or Linux run `python3 tweet.py`.
+- [x] If you are on Windows run `Python tweet.py`.
 
 ## Sending Tweets With An Image
 
