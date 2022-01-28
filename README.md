@@ -34,3 +34,7 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Replace "image.jpg" with the image you would like to send.
 - [x] Make sure the new image is also called "image.jpg".
 - [x] When asked in the software "Would you like to add an image to your tweet", select yes.
+
+## Preview
+
+![Screenshot](./config/screenshot.png?raw=true)
