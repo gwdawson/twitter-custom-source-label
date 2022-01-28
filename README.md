@@ -2,7 +2,7 @@
 
 _Before you are able to use this software you need a developer account on twitter. To acheive this just navigate to [Twitter Developer Platform](https://developer.twitter.com/) and fill out the application explaining what you want to do with their API. Once completed you will get an email letting you know if your application has been approved. After getting your approval from Twitter you can create your first app!_
 
-## Creating a twitter application
+## Creating A Twitter Application
 
 - [x] Head over to [Twitter Developer Platform](https://developer.twitter.com/en/portal/projects-and-apps) and select "Create App".
 - [x] Give your app a name, this is the name that will be shown on your tweets as the source label.
@@ -13,7 +13,7 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Click on "Regenerate" for API Key & Secret then take a note of both Keys.
 - [x] Click on "Generate" for Access Token & Secret then take a note of both Tokens.
 
-## Setting up the software
+## Setting Up The Software
 
 - [x] At the top of this page select the green "Code" button and click "Download ZIP".
 - [x] Extract the contents of the ZIP file to a folder called "twitter-custom-source-label".
@@ -21,7 +21,7 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] On line 10 set the value of "device_1" to your application name and Save.
 - [x] Open ".env" in your IDE or Text Editor, paste your Twitter API keys and Access Tokens and Save.
 
-## Installing Python and Requirements
+## Installing Python And Requirements
 
 - [x] Go to [Python Downloads](https://www.python.org/downloads/) and select the latest version for your device.
 - [x] Follow the setup guide until completely installed.
@@ -29,11 +29,15 @@ _Before you are able to use this software you need a developer account on twitte
 - [x] Run the following command `pip install -r requirements.txt`.
 - [x] Finally you can run `Python3 tweet.py` and the software should open.
 
-## Sending tweets with an Image
+## Sending Tweets With An Image
 
 - [x] Replace "image.jpg" with the image you would like to send.
 - [x] Make sure the new image is also called "image.jpg".
 - [x] When asked in the software "Would you like to add an image to your tweet", select yes.
+
+## License
+
+This project is under the [MIT license](./LICENSE). See LICENSE for more details.
 
 ## Preview
 
