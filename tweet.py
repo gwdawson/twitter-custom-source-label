@@ -56,12 +56,16 @@ def select_image():
         input(
             f"""
 Would you like to add an image to your tweet?\n
+0. Exit the programme\n
 1. Yes
 2. No\n
 Select one number from above: """
         )
     )
-    return user_selected_image
+    if user_selected_image == "0":
+        sys.exit()
+    else:
+        return user_selected_image
 
 
 def error_select_number():
