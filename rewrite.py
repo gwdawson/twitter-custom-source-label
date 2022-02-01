@@ -39,23 +39,23 @@ def select_source_label():
     return
 
 
-def write_your_tweet():
-    print("write_your_tweet")
+def write_tweet():
+    print("write_tweet")
     return
 
 
-def select_youe_image():
-    print("select_youe_image")
+def select_image():
+    print("select_image")
     return
 
 
-def review_your_tweet():
-    print("review_your_tweet")
+def review_tweet():
+    print("review_tweet")
     return
 
 
-def send_the_tweet():
-    print("send_the_tweet")
+def send_tweet():
+    print("send_tweet")
     return
 
 
