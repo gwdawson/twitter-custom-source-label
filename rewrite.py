@@ -37,18 +37,31 @@ natus nisi animi ea distinctio consequatur quas fugiat ut deleniti aperiam? Saep
 atque sunt ut dolore libero assumenda debitis commodi quisquam eius nisi sed? Dicta reiciendis nihil quidem quasi
 vel saepe libero reprehenderit sunt."""
 
+l_break = "\n-------------------------------------------------------------------------------------\n"
+
 
 def about_the_software():
     print(f"{about}\n")
     input("Press Enter to continue...")
-    print("\n----------------------------------------------------------------------------------------------------\n")
+    print(l_break)
     select_source_label()
     return
 
 
 def select_source_label():
-    print("select_source_label")
-    return
+    application_count = 1
+    for label in custom_source_labels:
+        print(f"{application_count}. {label['Application Name']}")
+        application_count = application_count + 1
+    user_input = input("\nSelect a custom label to use on your tweet: ")
+    if user_input.isnumeric():
+        if int(user_input) < application_count and int(user_input) > 0:
+            print(l_break)
+            write_tweet()
+        else:
+            selection_error()
+    else:
+        selection_error()
 
 
 def write_tweet():
@@ -69,6 +82,12 @@ def review_tweet():
 def send_tweet():
     print("send_tweet")
     return
+
+
+def selection_error():
+    print(l_break)
+    print(f"ERROR: INPUT SHOULD BE A LISTED NUMBER\n")
+    select_source_label()
 
 
 about_the_software()
