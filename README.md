@@ -30,4 +30,5 @@ This project is under the MIT license. See [LICENSE](./LICENSE) for more details
 
 ## Preview
 
-<!-- ![Screenshot](./config/screenshot.png?raw=true) -->
+![Tweet Preview](./config/tweet_preview.png)
+![Software Preview](./config/software_preview.png)
