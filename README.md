@@ -22,7 +22,7 @@ To acheive this just navigate to [Twitter Developer Platform](https://developer.
 - [x] On line 9 set the value of "Application Name" to your application name and Save.
 - [x] On lines 10, 11, 12 and 13 add the API keys and Access Tokens that you made a note of.
 - [x] Open Terminal and navigate to the "twitter-custom-source-label".
-- [x] Run the command `python3 rewrite.py`.
+- [x] Run the commands `pip install -r requirements.txt` then `python3 rewrite.py`.
 
 ## License
 
