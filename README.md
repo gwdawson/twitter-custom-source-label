@@ -3,6 +3,9 @@
 Before you are able to use this software you need to have a verified twitter developer account.\
 To acheive this just navigate to [Twitter Developer Platform](https://developer.twitter.com/) and fill out the application form.
 
+You all might have seen "Twitter for iPhone" or "Twitter for Android" on Twitter. These are called the Source Label.\
+If you are looking to change this Source Label on your tweets then this is the software for you.
+
 ## Creating A Twitter Application
 
 - [x] Head over to [Twitter Developer Platform](https://developer.twitter.com/en/portal/projects-and-apps) and select "Create App".
